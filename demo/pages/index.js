@@ -1,3 +1,4 @@
+import CardList from "../components/CardList"
 import HeroSerach from "../components/HeroSearch"
 import TopNav from "../components/TopNav"
 
@@ -6,6 +7,7 @@ export default function Home({ data = [] }) {
     <div>
       <TopNav />
       <HeroSerach />
+      <CardList />
     </div>
   )
 }

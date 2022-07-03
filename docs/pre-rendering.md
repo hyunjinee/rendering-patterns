@@ -16,7 +16,7 @@ Pre-rendering 방식을 제공하는 Next.js는 우선 HTML 파일을 통해 정
 - TTI(Time To Interact): 페이지가 로드되고 자바스크립트 코드가 실행되면서 페이지가 인터렉티브 하게 동작하는 걸리는 시간을 의미한다. (사용자와 상호작용 가능할 때까지의 시간)
 - TTV(Time To View): 페이지가 사용자에게 보여지는데까지 걸리는 시간.
 
-Next.js의 pre-rendering 형태는 Static Generation과 Server Side Rendering으로 나뉜다. 이 둘의 차이점은 HTML을 생성할 때에 있다. 즉, 페이지의 일부는 클라이언트 측 JavaScript로 완전히 렌더링 될 수 있음을 의미한다.
+Next.js의 pre-rendering 형태는 Static Generation과 Server Side Rendering으로 나뉘며 각 페이지별로 다르게 적용할 수 있다. 이 pre-rendering 방식의 차이는 HTML을 생성할 때에 있다.
 
 ![image](https://user-images.githubusercontent.com/63354527/176658540-9afe2dfc-4db7-4952-8488-a0d601480756.png)
 
@@ -194,6 +194,12 @@ Next.js는 최소한의 JavaScript를 이용한 Rendering을 하고 나머지는
 <!-- ![image](https://user-images.githubusercontent.com/63354527/176648267-d0844909-4bde-4867-aa2a-790f4d7e9c0a.png) -->
 
 ![image](https://user-images.githubusercontent.com/63354527/176652643-b950e796-6235-4e8a-a930-d96c84598fca.png)
+
+### getServerSideProps
+
+- 이 함수에서 사용된 모듈은 클라이언트에 번들로 제공하지 않아 filesystem이나 db작업을 할 수 있다.
+- 서버에서 모든 요청을 처리해야하고 추가 구성없이 CDN에 캐시도리 수 없기에 getStaticProps 보다 느리다.
+- 데이터를 pre-render할 필요없다면 클라이언트측에서 fetch하는 것을 고려해야한다.
 
 ## CSR
 

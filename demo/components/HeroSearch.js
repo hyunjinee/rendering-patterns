@@ -1,7 +1,6 @@
 import Image from "next/image"
 import styled from "styled-components"
 import backgroundImg from "../public/background.png"
-import search from "../public/search.svg"
 import search2 from "../public/search2.svg"
 
 export default function HeroSerach() {
