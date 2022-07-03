@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import Image from "next/image"
+
 import bclguide from "../public/bclguide.png"
 
 export default function TopNav() {

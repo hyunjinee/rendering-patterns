@@ -1,7 +1,5 @@
-import styled from "styled-components"
 import Image from "next/image"
-
-import building from "../public/building1.png"
+import styled from "styled-components"
 
 export default function Card({ title, src, price }) {
   return (
@@ -19,7 +17,6 @@ export const Container = styled.div`
   position: relative;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 80%;
-  /* height: 80%; */
   border-radius: 1rem;
   overflow: hidden;
   margin: 0 auto;
@@ -36,8 +33,6 @@ export const ImageContainer = styled.div`
 `
 
 export const Title = styled.div`
-  /* color: #f06595;  */
-
   padding-left: 2rem;
   font-size: 1.6rem;
   font-family: "Noto Sans KR", sans-serif;

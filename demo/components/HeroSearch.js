@@ -12,8 +12,6 @@ export default function HeroSerach() {
 
       <InputContainer>
         <Input placeholder="주소, 도시, 학교등을 검색하세요" />
-        {/* <img src="../public/search.svg" /> */}
-        {/* <Image src={search} width="40" /> */}
         <Image src={search2} width="34" />
       </InputContainer>
     </Wrapper>

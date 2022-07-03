@@ -1,5 +1,5 @@
-import styled from "styled-components"
 import { useQuery } from "react-query"
+import styled from "styled-components"
 
 import Card from "./Card"
 import SkeletonCard from "./SkeletonCard"
