@@ -3,7 +3,7 @@ import Image from "next/image"
 
 import building from "../public/building1.png"
 
-export default function Card({ title, building, src, price }) {
+export default function Card({ title, src, price }) {
   return (
     <Container>
       <ImageContainer>
@@ -15,7 +15,7 @@ export default function Card({ title, building, src, price }) {
   )
 }
 
-const Container = styled.div`
+export const Container = styled.div`
   position: relative;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   width: 80%;
@@ -25,7 +25,7 @@ const Container = styled.div`
   margin: 0 auto;
 `
 
-const ImageContainer = styled.div`
+export const ImageContainer = styled.div`
   position: relative;
   height: 18rem;
   width: 100%;
@@ -35,7 +35,7 @@ const ImageContainer = styled.div`
   margin-bottom: 2rem;
 `
 
-const Title = styled.div`
+export const Title = styled.div`
   /* color: #f06595;  */
 
   padding-left: 2rem;
@@ -44,7 +44,7 @@ const Title = styled.div`
   font-weight: bold;
 `
 
-const Price = styled.div`
+export const Price = styled.div`
   color: #f06595;
   font-size: 2rem;
   font-family: "Noto Sans KR", sans-serif;

@@ -1,0 +1,17 @@
+[
+  {
+    "title": "현진빌라",
+    "src": "/public/building1.png",
+    "price": "99999999999999원"
+  },
+  {
+    "title": "소마빌라",
+    "src": "/public/building2.png",
+    "price": "100000000원"
+  },
+  {
+    "title": "방슐랭빌라",
+    "src": "/public/building3.png",
+    "price": "9000000000원"
+  }
+]

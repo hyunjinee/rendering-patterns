@@ -50,10 +50,10 @@ const B = styled.div`
   margin-right: 3rem;
 `
 const C = styled.div`
-  background-color: #0c8fef;
-  color: white;
-  border-radius: 0.4rem;
   width: 10rem;
   padding: 1rem 0;
+  border-radius: 0.4rem;
+  background-color: #0c8fef;
   text-align: center;
+  color: white;
 `
