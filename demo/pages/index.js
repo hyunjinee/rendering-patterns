@@ -2,12 +2,12 @@ import CardList from "../components/CardList"
 import HeroSerach from "../components/HeroSearch"
 import TopNav from "../components/TopNav"
 
-export default function Home({ data = [] }) {
+export default function Home({ data }) {
   return (
     <div>
       <TopNav />
       <HeroSerach />
-      <CardList />
+      <CardList data={data} />
     </div>
   )
 }
