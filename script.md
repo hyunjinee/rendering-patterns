@@ -23,7 +23,7 @@
 
 ![](https://velog.velcdn.com/images/hyunjine/post/0b75cbd1-8ae0-4cea-bb79-c724b1173cd8/image.png)
 
-이전 예시에서 알 수 있는 사실은 렌더링은 `UX`(User Experience)와 `DX`(Developer Experience)에 직접적으로 영향을 미친다는 것 입니다. 개발자가 작성하는 코드에 따라 렌더링의 속도가 달라질 수 있고 개발자는 어플리케이션의 첫 사용자(First User)이기도 하므로 `DX`에 영향을 미칩니다. 또한 개발자가 채택한 렌더링 패턴은 최초 유저인 개발자에게 영향을 미치고 이는 결국 `UX`의 저하로 이어집니다.
+이전 예시에서 알 수 있는 사실은 렌더링은 `UX`(User Experience)와 `DX`(Developer Experience)에 직접적으로 영향을 미친다는 것 입니다. 개발자가 작성하는 코드에 따라 렌더링의 속도가 달라질 수 있고 개발자는 어플리케이션의 첫 사용자(First User)이기도 하므로 `DX`에 영향을 미칩니다. 또한 개발자가 채택한 렌더링 패턴은 최초 유저인 개발자에게 영향을 미치고 이는 결국 `UX`에 영향을 미칩니다.
 
 ![](https://velog.velcdn.com/images/hyunjine/post/47798163-2b27-4fe8-89ec-b7f8b3aacf66/image.png)
 
@@ -164,13 +164,12 @@ Next.js의 pre-rendering 형태중 `SSG`에 대해서 먼저 알아보겠습니�
 
 ![](https://velog.velcdn.com/images/hyunjine/post/87c555cc-d884-4f23-8dab-b2e41398e76a/image.png)
 
-정답은 없습니다. 어디서든지 렌더링 패턴을 고려할 수 있지만, 어플리케이션이 어떤 컨텐츠를 렌더링하냐에 적용할 패턴이 바뀔 것 같습니다.
+정답은 없습니다. 어디서든지 렌더링 패턴을 고려할 수 있지만, 어플리케이션이 어떤 컨텐츠를 렌더링하냐에 따라 적용할 패턴이 바뀔 것 같습니다.
 
 ![](https://velog.velcdn.com/images/hyunjine/post/18e1c107-c172-44f5-a452-2aa5a7761a3f/image.png)
 
 저는 특정 패턴이 좋고 나쁘고를 주장하는 것이 아닙니다.
 단지 웹을 렌더링하는 방법에는 다양한 렌더링 패턴이 존재하고, 이 패턴들은 모두 tradeoff가 있을 뿐 입니다.
-여러분이 자신의 웹 애플리케이션의 문제점을 찾고 그 문제점을 해결하기 위한 렌더링 패턴을 적용했으면 좋겠습니다.
 
 이 발표가 효율적인 렌더링 패턴을 찾는데 도움이 되었으면 좋겠습니다.
 
