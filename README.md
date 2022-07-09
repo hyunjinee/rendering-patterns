@@ -2,6 +2,8 @@
 
 <img width="1187" alt="image" src="https://user-images.githubusercontent.com/63354527/177689275-9ebea11c-7662-42ea-9c4b-b649542ca08d.png">
 
+[발표 영상](https://www.youtube.com/watch?v=baVuNEoMOr0)
+
 ## 참고
 
 |                              Title                               |    Description    |                                                                 Link                                                                  |
