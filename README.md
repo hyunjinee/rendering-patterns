@@ -2,6 +2,11 @@
 
 <img width="1187" alt="image" src="https://user-images.githubusercontent.com/63354527/177689275-9ebea11c-7662-42ea-9c4b-b649542ca08d.png">
 
+![IMG_0166](https://user-images.githubusercontent.com/63354527/183294363-d6bcdaca-6307-4e13-b8e1-dcd545d5abcc.JPG)
+
+![IMG_0165](https://user-images.githubusercontent.com/63354527/183294351-52c467fb-3ea7-438e-8cb3-4715a901c881.JPG)
+
+
 [발표 영상](https://www.youtube.com/watch?v=baVuNEoMOr0)
 
 ## 참고
